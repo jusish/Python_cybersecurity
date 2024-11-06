@@ -3,26 +3,23 @@ import json
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+from concurrent.futures import ThreadPoolExecutor
 from tqdm import tqdm
 
 visited_urls = set()
 
-def load_keywords(file_path):
+def load_file_lines(file_path):
     with open(file_path, 'r') as file:
-        keywords = [line.strip() for line in file.readlines()]
-    return keywords
+        return [line.strip() for line in file.readlines()]
 
-def extract_paragraphs_with_keywords(url, keywords, output):
+def extract_paragraphs_with_keywords(url, keywords, output_file):
     try:
         response = requests.get(url)
-    except requests.RequestException:
-        print(f"Request failed: {url}")
-        return
-
-    if response.status_code == 200:
+        response.raise_for_status()
         soup = BeautifulSoup(response.content, 'html.parser')
         paragraphs = soup.find_all('p')
 
+        results = []
         for keyword in keywords:
             for paragraph in paragraphs:
                 text = paragraph.get_text()
@@ -32,27 +29,26 @@ def extract_paragraphs_with_keywords(url, keywords, output):
                         'url': url,
                         'text': text.strip()
                     }
-                    
-                    # Write each result to the file in real-time
-                    with open(output, 'a') as file:
-                        json.dump(result, file)
-                        file.write(',\n')  # Add a comma to separate entries
+                    results.append(result)
                     break
+        if results:
+            with open(output_file, 'a') as file:
+                for result in results:
+                    json.dump(result, file)
+                    file.write(',\n')
+    except requests.RequestException as e:
+        print(f"Request failed: {e}")
 
-def spider_and_search(url, keywords, output, url_keyword):
+def spider_and_search(url, keywords, url_keywords, output_file, session):
     if url in visited_urls:
         return
     visited_urls.add(url)
-
-    extract_paragraphs_with_keywords(url, keywords, output)
     
-    try:
-        response = requests.get(url)
-    except requests.RequestException:
-        print(f"Request failed: {url}")
-        return
+    extract_paragraphs_with_keywords(url, keywords, output_file)
 
-    if response.status_code == 200:
+    try:
+        response = session.get(url)
+        response.raise_for_status()
         soup = BeautifulSoup(response.content, 'html.parser')
         a_tags = soup.find_all('a')
 
@@ -60,25 +56,28 @@ def spider_and_search(url, keywords, output, url_keyword):
             href = tag.get("href")
             if href:
                 new_url = urljoin(url, href)
-                if new_url not in visited_urls and url_keyword.lower() in new_url.lower():
-                    print(f"Searching URL: {new_url}")
-                    spider_and_search(new_url, keywords, output, url_keyword)
+                if new_url not in visited_urls and any(kw.lower() in new_url.lower() for kw in url_keywords):
+                    spider_and_search(new_url, keywords, url_keywords, output_file, session)
+    except requests.RequestException as e:
+        print(f"Request failed: {e}")
 
 def main():
-    start_url = input("Enter the starting URL: ")
-    keywords_file = input("Enter the file path for keywords: ")
-    output_file = input("Enter the output JSON file path: ")
-    url_keyword = input("Enter the URL keyword filter (URLs must contain this keyword to be visited): ")
+    urls_file = 'urls.txt'
+    keywords_file = 'keywords.txt'
+    url_keywords_file = 'url_keywords.txt'
+    output_file = 'output.json'
 
-    keywords = load_keywords(keywords_file)
+    urls = load_file_lines(urls_file)
+    keywords = load_file_lines(keywords_file)
+    url_keywords = load_file_lines(url_keywords_file)
 
-    # Start the JSON array in the output file
     with open(output_file, 'w') as file:
         file.write("[\n")
 
-    spider_and_search(start_url, keywords, output_file, url_keyword)
+    with requests.Session() as session:
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            list(tqdm(executor.map(lambda url: spider_and_search(url, keywords, url_keywords, output_file, session), urls), total=len(urls)))
 
-    # Close the JSON array
     with open(output_file, 'a') as file:
         file.write("\n]")
 

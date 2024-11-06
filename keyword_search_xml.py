@@ -3,13 +3,14 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from xml.etree.ElementTree import Element, SubElement, tostring
+from concurrent.futures import ThreadPoolExecutor
+from tqdm import tqdm
 
 visited_urls = set()
 
-def load_keywords(file_path):
+def load_file_lines(file_path):
     with open(file_path, 'r') as file:
-        keywords = [line.strip() for line in file.readlines()]
-    return keywords
+        return [line.strip() for line in file.readlines()]
 
 def extract_paragraphs_with_keywords(url, keywords, output_file):
     try:
@@ -18,32 +19,30 @@ def extract_paragraphs_with_keywords(url, keywords, output_file):
         soup = BeautifulSoup(response.content, 'html.parser')
         paragraphs = soup.find_all('p')
 
-        for keyword in keywords:
-            for paragraph in paragraphs:
-                text = paragraph.get_text()
-                if keyword.lower() in text.lower():
-                    # Write each result immediately to the XML file
-                    entry = Element('entry')
-                    SubElement(entry, 'keyword').text = keyword
-                    SubElement(entry, 'url').text = url
-                    SubElement(entry, 'text').text = text.strip()
-                    
-                    with open(output_file, 'ab') as file:
+        with open(output_file, 'ab') as file:
+            for keyword in keywords:
+                for paragraph in paragraphs:
+                    text = paragraph.get_text()
+                    if keyword.lower() in text.lower():
+                        entry = Element('entry')
+                        SubElement(entry, 'keyword').text = keyword
+                        SubElement(entry, 'url').text = url
+                        SubElement(entry, 'text').text = text.strip()
                         file.write(tostring(entry))
                         file.write(b'\n')
-                    break
+                        break
     except requests.RequestException as e:
         print(f"Request failed: {e}")
 
-def spider_and_search(url, keywords, url_keyword, output_file):
+def spider_and_search(url, keywords, url_keywords, output_file, session):
     if url in visited_urls:
         return
     visited_urls.add(url)
-
+    
     extract_paragraphs_with_keywords(url, keywords, output_file)
 
     try:
-        response = requests.get(url)
+        response = session.get(url)
         response.raise_for_status()
         soup = BeautifulSoup(response.content, 'html.parser')
         a_tags = soup.find_all('a')
@@ -52,26 +51,28 @@ def spider_and_search(url, keywords, url_keyword, output_file):
             href = tag.get("href")
             if href:
                 new_url = urljoin(url, href)
-                if new_url not in visited_urls and url_keyword.lower() in new_url.lower():
-                    spider_and_search(new_url, keywords, url_keyword, output_file)
+                if new_url not in visited_urls and any(kw.lower() in new_url.lower() for kw in url_keywords):
+                    spider_and_search(new_url, keywords, url_keywords, output_file, session)
     except requests.RequestException as e:
         print(f"Request failed: {e}")
 
 def main():
-    start_url = input("Enter the starting URL: ")
-    keywords_file = input("Enter the file path for keywords: ")
-    output_file = input("Enter the output XML file path: ")
-    url_keyword = input("Enter the URL keyword filter: ")
+    urls_file = 'urls.txt'
+    keywords_file = 'keywords.txt'
+    url_keywords_file = 'url_keywords.txt'
+    output_file = 'output.xml'
 
-    keywords = load_keywords(keywords_file)
+    urls = load_file_lines(urls_file)
+    keywords = load_file_lines(keywords_file)
+    url_keywords = load_file_lines(url_keywords_file)
 
-    # Open file and write root element start
     with open(output_file, 'wb') as file:
         file.write(b"<results>\n")
 
-    spider_and_search(start_url, keywords, url_keyword, output_file)
+    with requests.Session() as session:
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            list(tqdm(executor.map(lambda url: spider_and_search(url, keywords, url_keywords, output_file, session), urls), total=len(urls)))
 
-    # Close the root element
     with open(output_file, 'ab') as file:
         file.write(b"</results>\n")
 

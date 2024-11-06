@@ -1,1 +1,285 @@
-https://www.migeprof.gov.rw
+https://www.gov.rw/                                # Official Government of Rwanda Portal
+https://www.minicom.gov.rw/                        # Ministry of Trade and Industry
+https://www.minaloc.gov.rw/                        # Ministry of Local Government
+https://www.minijust.gov.rw/                       # Ministry of Justice
+https://www.mineduc.gov.rw/                        # Ministry of Education
+https://www.mininfra.gov.rw/                       # Ministry of Infrastructure
+https://www.minecofin.gov.rw/                      # Ministry of Finance and Economic Planning
+https://www.minagri.gov.rw/                        # Ministry of Agriculture and Animal Resources
+https://www.minisante.gov.rw/                      # Ministry of Health
+https://www.migeprof.gov.rw/                       # Ministry of Gender and Family Promotion
+https://www.mineacome.gov.rw/                      # Ministry of East African Community Affairs
+https://www.migration.gov.rw/                      # Directorate General of Immigration and Emigration
+https://www.rdb.rw/                                # Rwanda Development Board
+https://www.rra.gov.rw/                            # Rwanda Revenue Authority
+https://www.nirda.gov.rw/                          # National Industrial Research and Development Agency
+https://www.nsb.gov.rw/                            # National Statistics of Rwanda
+https://www.rema.gov.rw/                           # Rwanda Environment Management Authority
+https://www.rura.rw/                               # Rwanda Utilities Regulatory Authority
+https://www.fonerwa.org/                           # Rwanda Green Fund (FONERWA)
+https://www.rgb.rw/                                # Rwanda Governance Board
+https://www.police.gov.rw/                         # Rwanda National Police
+https://www.mod.gov.rw/                            # Ministry of Defence
+https://www.mifotra.gov.rw/                        # Ministry of Public Service and Labour
+https://www.irembo.gov.rw/                         # Irembo Services - E-government Portal
+https://www.rha.gov.rw/                            # Rwanda Housing Authority
+https://www.wda.gov.rw/                            # Workforce Development Authority
+https://www.nida.gov.rw/                           # National Identification Agency
+https://www.rsb.gov.rw/                            # Rwanda Standards Board
+https://www.coh.gov.rw/                            # Commission of Human Rights
+https://www.bnr.rw/                                # National Bank of Rwanda
+https://www.rbc.gov.rw/                            # Rwanda Biomedical Centre
+https://www.ur.ac.rw/                              # University of Rwanda
+https://www.nursarwanda.org/                       # National Union of Rwanda Students Association
+https://www.ncd.gov.rw/                            # National Commission for Children
+https://www.ndpr.gov.rw/                           # National Digital Transformation Policy of Rwanda
+https://www.nirda.gov.rw/                          # National Industrial Research and Development Agency
+
+# International Organizations and UN bodies in Rwanda
+https://rwanda.un.org/                             # United Nations Rwanda
+https://www.unicef.org/rwanda/                     # UNICEF Rwanda
+https://www.who.int/rwanda                         # World Health Organization - Rwanda
+https://www.wfp.org/countries/rwanda               # World Food Programme - Rwanda
+https://rwanda.unfpa.org/                          # UNFPA Rwanda
+https://www.afdb.org/en/countries/east-africa/rwanda  # African Development Bank - Rwanda
+https://www.worldbank.org/en/country/rwanda        # World Bank - Rwanda
+https://data.worldbank.org/country/rwanda          # World Bank Data on Rwanda
+https://www.undp.org/rwanda                        # UN Development Programme - Rwanda
+https://www.unesco.org/en/fieldoffice/rwanda       # UNESCO - Rwanda
+
+# Additional Resources and Data Sources
+https://statistics.gov.rw/                         # National Institute of Statistics Rwanda
+https://data.gov.rw/                               # Rwanda Open Data Portal
+https://www.statistics.gov.rw/                     # National Institute of Statistics of Rwanda (for various datasets and reports)
+https://www.moh.gov.rw/                            # Ministry of Health Rwanda (for health data)
+https://www.rbcevents.rw/                          # Rwanda Biomedical Centre (health events and resources)
+
+
+
+
+
+# United Nations and International Bodies on Human Rights and Gender Equality
+https://www.ohchr.org/                                # UN Office of the High Commissioner for Human Rights (OHCHR)
+https://www.un.org/en/global-issues/human-rights      # United Nations Global Issues on Human Rights
+https://www.unwomen.org/                              # UN Women (gender equality and women's empowerment)
+https://www.unfpa.org/                                # United Nations Population Fund (UNFPA)
+https://www.unicef.org/                               # UNICEF (child rights and development)
+https://data.unicef.org/                              # UNICEF Data (child development, nutrition, and education)
+https://www.undp.org/                                 # United Nations Development Programme (UNDP)
+https://sdgs.un.org/goals                             # UN Sustainable Development Goals (SDG targets related to gender equality, poverty, and education)
+
+# International Laws and Resources on Gender and Human Rights
+https://www.cedaw.org/                                # Convention on the Elimination of All Forms of Discrimination Against Women (CEDAW)
+https://www.genderindex.org/                          # Gender Equality and Women’s Rights Database (OECD Social Institutions and Gender Index)
+https://www.globalcitizen.org/en/content/gender-equality-organizations/  # Global Citizen Resources on Gender Equality Organizations
+https://www.equalitynow.org/                          # Equality Now (global advocacy for gender equality and legal reform)
+
+# Health and Nutrition for Women and Children
+https://www.who.int/health-topics/nutrition           # World Health Organization (WHO) Nutrition Portal
+https://www.globalnutritionreport.org/                # Global Nutrition Report (nutrition data and insights)
+https://www.who.int/nutrition/                        # WHO Nutrition Information
+https://data.worldbank.org/indicator/SH.STA.MMRT      # World Bank Data on Maternal Mortality Ratio
+https://www.wfp.org/publications/nutrition-strategy   # World Food Programme (WFP) Nutrition Strategy
+https://www.usaid.gov/global-health/health-areas/nutrition  # USAID Nutrition Programs
+
+# Resources on Childhood Development and Protection
+https://data.unicef.org/topic/early-childhood-development/  # UNICEF Early Childhood Development Data
+https://www.savethechildren.org/us/what-we-do/global-programs/child-protection  # Save the Children (child protection and rights)
+https://www.childwatch.uio.no/                            # Childwatch International (research network for children's rights)
+https://www.childrensrights.org/                          # Children's Rights (U.S.-based, advocacy for child welfare and protection)
+
+# Women Empowerment and Gender-Based Violence
+https://data.unwomen.org/                                 # UN Women Data Hub on Gender Equality
+https://www.rescue.org/topic/women-empowerment           # International Rescue Committee (Women Empowerment Programs)
+https://www.who.int/health-topics/violence-against-women # WHO on Violence Against Women
+https://www.endvawnow.org/                               # UN Women’s Virtual Knowledge Center to End Violence Against Women
+https://www.icrw.org/                                    # International Center for Research on Women (ICRW)
+https://www.worldbank.org/en/topic/gender                # World Bank Gender Portal
+
+# Human Rights and Social Justice Research
+https://www.hrw.org/                                     # Human Rights Watch (reports on human rights)
+https://www.amnesty.org/                                 # Amnesty International (global human rights advocacy)
+https://www.globalcitizen.org/en/                        # Global Citizen (advocacy for social justice and human rights)
+https://www.freedomhouse.org/                            # Freedom House (reports on global freedom and human rights)
+
+# General Data and Policy Resources
+https://data.worldbank.org/                              # World Bank Open Data
+https://www.oecd.org/social/gender-equality-in-the-world/  # OECD Gender Equality Resources
+https://www.pewresearch.org/fact-tank/                   # Pew Research Center (global data on social issues)
+https://www.census.gov/topics/population/gender.html     # U.S. Census Bureau on Gender and Age Statistics
+https://unstats.un.org/unsd/genderstatmanual/            # United Nations Gender Statistics Manual
+https://data.worldbank.org/indicator/SP.POP.0014.TO.ZS   # World Bank Data on Children Population (0-14 age group)
+
+# Regional Organizations and Resources
+https://africa.unwomen.org/                              # UN Women Africa
+https://eige.europa.eu/                                  # European Institute for Gender Equality (EIGE)
+https://www.africanchildinfo.net/                        # African Child Policy Forum (children’s rights and wellbeing in Africa)
+https://asiapacific.unfpa.org/                           # UNFPA Asia and the Pacific
+https://www.equaltimes.org/                              # Equal Times (global news and opinions on social justice and equality)
+https://www.apwld.org/                                   # Asia Pacific Forum on Women, Law and Development (APWLD)
+
+# Research and Publications on Gender, Rights, and Development
+https://www.odi.org/                                     # Overseas Development Institute (research on development issues)
+https://www.weforum.org/                                # World Economic Forum (Gender Gap Reports and insights)
+https://pubs.iied.org/                                   # International Institute for Environment and Development (IIED)
+https://www.ids.ac.uk/                                   # Institute of Development Studies (research and publications on social justice)
+https://www.brookings.edu/research/                      # Brookings Institution (global research on social issues)
+
+
+# Global Portals and Information Hubs on Rwanda and International Development
+https://www.worldbank.org/en/country/rwanda             # World Bank Rwanda Overview
+https://data.worldbank.org/country/rwanda               # World Bank Data on Rwanda
+https://databank.worldbank.org/source/global-financial-development  # Global Financial Development
+https://www.un.org/en/                                  # United Nations Homepage
+https://www.un.org/en/africa                            # United Nations Africa Section
+https://unstats.un.org/home                             # United Nations Statistics Division (global and country-specific data)
+https://www.unicef.org/rwanda                           # UNICEF Rwanda Country Page
+https://www.who.int/countries/rwa                       # WHO Rwanda Health Profile
+https://data.unicef.org/country/rwa/                    # UNICEF Data on Rwanda
+https://www.usaid.gov/rwanda                            # USAID Rwanda Programs
+https://www.worldbank.org/en/topic/gender               # World Bank Gender Equality Data
+https://www.oecd.org/development/                       # OECD Development Centre
+https://datacatalog.worldbank.org/                      # World Bank Open Data Catalog
+https://data.oecd.org/                                  # OECD Data (includes Rwanda-related data in various sectors)
+https://data.unwomen.org/                               # UN Women Data Hub on Gender Equality
+https://population.un.org/wpp/                          # UN Population Division (global population statistics)
+
+# Africa and Rwanda-Specific Development and Statistics
+https://afdb.org/en/documents                          # African Development Bank (AfDB) Documents and Publications
+https://rwanda.opendataforafrica.org/                  # Open Data for Africa - Rwanda
+https://www.statista.com/statistics/1120190/rwanda-gdp/  # Statista: Rwanda GDP and Economic Data
+https://allafrica.com/rwanda/                          # AllAfrica: Rwanda News and Analysis
+https://www.newtimes.co.rw/                            # The New Times Rwanda (news and updates on Rwanda)
+https://www.ifad.org/en/web/operations/w/country/rwanda  # International Fund for Agricultural Development (IFAD) in Rwanda
+https://www.indexmundi.com/rwanda/                     # IndexMundi - Rwanda Statistics and Facts
+https://www.fao.org/countryprofiles/index/en/?iso3=RWA # FAO Rwanda Country Profile (food, agriculture, and rural development)
+
+# Research and Reports on Human Rights, Gender, and Social Development
+https://www.hrw.org/africa/rwanda                      # Human Rights Watch: Rwanda Page
+https://www.amnesty.org/en/location/africa/east-africa/rwanda/  # Amnesty International Rwanda Page
+https://www.eiu.com/n/campaigns/democracy-index-2023/  # Economist Intelligence Unit (EIU) Democracy Index (includes Rwanda data)
+https://freedomhouse.org/country/rwanda                # Freedom House - Rwanda Freedom Score and Report
+https://www.oxfam.org/en/tags/rwanda                   # Oxfam Rwanda Programs
+https://www.fhi360.org/locations/rwanda                # FHI 360 (programs on health, education, and economic development in Rwanda)
+https://data2.unhcr.org/en/situations/rwanda           # UNHCR Rwanda (refugee-related information)
+https://www.globalfinindex.worldbank.org/              # World Bank Global Findex (financial inclusion data)
+https://www.transparency.org/en/countries/rwanda       # Transparency International - Rwanda Corruption Perception Index
+
+# Informative Portals on Sustainable Development, Gender, and Youth Empowerment
+https://sustainabledevelopment.un.org/                 # United Nations Sustainable Development Platform
+https://genderdata.worldbank.org/                      # World Bank Gender Data Portal
+https://www.plan-international.org/rwanda              # Plan International Rwanda (youth and children's rights programs)
+https://www.care.org/our-work/where-we-work/rwanda/    # CARE Rwanda Programs (poverty and social justice)
+https://www.undp.org/rwanda                            # UNDP Rwanda Country Office
+https://globalhealth5050.org/                          # Global Health 50/50 (gender equity and health)
+https://www.youngafrica.org/                           # Young Africa (youth empowerment in Africa)
+https://gld.gu.se/en/                                  # Varieties of Democracy (V-Dem) Global Democracy Data, including Rwanda
+
+# Other Information and Research Platforms for Rwanda and Global Context
+https://www.weforum.org/reports                         # World Economic Forum (reports on global and regional development)
+https://www.knomad.org/                                 # Global Knowledge Partnership on Migration and Development (KNOMAD)
+https://www.openknowledge.worldbank.org/               # World Bank Open Knowledge Repository
+https://www.prb.org/                                    # Population Reference Bureau (data on population and health)
+https://africanarguments.org/                           # African Arguments (insightful articles and debates on African issues)
+https://www.devex.com/                                  # Devex (global development and humanitarian news)
+https://www.irinnews.org/                               # The New Humanitarian (news on humanitarian issues and emergencies)
+https://www.inequalities.org/                           # World Inequality Database
+https://www.economist.com/research                      # Economist Research and Data
+https://www.brookings.edu/topic/sub-saharan-africa/     # Brookings Institute - Sub-Saharan Africa Analysis
+https://www.mcc.gov/where-we-work/country/rwanda        # Millennium Challenge Corporation - Rwanda Initiatives
+https://www.rescue.org/country/rwanda                   # International Rescue Committee - Rwanda
+https://www.worldjusticeproject.org/                    # World Justice Project - Rule of Law Index and Data on Rwanda
+
+# Legal and Policy Resources
+https://www.african-court.org/                          # African Court on Human and Peoples' Rights
+https://www.ilo.org/global/lang--en/index.htm           # International Labour Organization (ILO)
+https://www.britannica.com/place/Rwanda                 # Encyclopedia Britannica - Rwanda Overview
+https://library.fes.de/library.html                     # Friedrich Ebert Foundation (FES) Library on Social Justice and Development
+https://www.law.cornell.edu/wex                        # Cornell Law School Legal Information Institute
+https://ec.europa.eu/international-partnerships/topics  # European Commission - International Partnerships
+
+# Additional Resources on Global and Regional Affairs
+https://africacenter.org/                               # Africa Center for Strategic Studies
+https://www.gapminder.org/tools/#$state$time$value=2009  # Gapminder World Data
+https://ourworldindata.org/                             # Our World in Data (broad range of global development data)
+https://www.migrationpolicy.org/programs/data-hub       # Migration Policy Institute - Global Data Hub
+https://www.world-psi.org/en/africa-and-arab-countries  # Public Services International (global public sector information)
+
+
+
+# General Information on Rwanda
+https://en.wikipedia.org/wiki/Rwanda                          # Overview of Rwanda
+https://en.wikipedia.org/wiki/Geography_of_Rwanda             # Geography of Rwanda
+https://en.wikipedia.org/wiki/Demographics_of_Rwanda          # Demographics of Rwanda
+https://en.wikipedia.org/wiki/Economy_of_Rwanda               # Economy of Rwanda
+https://en.wikipedia.org/wiki/Politics_of_Rwanda              # Politics and government of Rwanda
+https://en.wikipedia.org/wiki/Healthcare_in_Rwanda            # Healthcare system in Rwanda
+https://en.wikipedia.org/wiki/Education_in_Rwanda             # Education system in Rwanda
+https://en.wikipedia.org/wiki/History_of_Rwanda               # History of Rwanda
+
+# Human Rights and Law
+https://en.wikipedia.org/wiki/Human_rights_in_Rwanda          # Human rights in Rwanda
+https://en.wikipedia.org/wiki/Human_rights                    # Overview of human rights
+https://en.wikipedia.org/wiki/International_human_rights_law  # International human rights law
+https://en.wikipedia.org/wiki/International_Criminal_Tribunal_for_Rwanda  # ICTR (Rwanda genocide trials)
+https://en.wikipedia.org/wiki/Human_Rights_Watch              # Human Rights Watch (global human rights organization)
+
+# Gender Equality, Women’s Rights, and Development
+https://en.wikipedia.org/wiki/Gender_equality                 # Gender equality
+https://en.wikipedia.org/wiki/Women%27s_rights                # Women’s rights
+https://en.wikipedia.org/wiki/Feminism_in_Rwanda              # Feminism in Rwanda
+https://en.wikipedia.org/wiki/UN_Women                        # UN Women organization
+https://en.wikipedia.org/wiki/Convention_on_the_Elimination_of_All_Forms_of_Discrimination_Against_Women  # CEDAW
+https://en.wikipedia.org/wiki/Women%27s_empowerment           # Women’s empowerment
+https://en.wikipedia.org/wiki/Child_development               # Child development
+https://en.wikipedia.org/wiki/Gender-based_violence           # Gender-based violence
+https://en.wikipedia.org/wiki/Sustainable_Development_Goals   # Sustainable Development Goals (SDGs)
+https://en.wikipedia.org/wiki/Equality_(social_and_political) # Equality in social and political context
+
+# Rwanda-Specific Development Initiatives and Global Involvement
+https://en.wikipedia.org/wiki/Vision_2020_(Rwanda)            # Rwanda's Vision 2020
+https://en.wikipedia.org/wiki/Rwandan_Genocide                # Rwandan Genocide
+https://en.wikipedia.org/wiki/Rwandan_genocide_memorials      # Rwandan genocide memorials
+https://en.wikipedia.org/wiki/African_Union                   # African Union (Rwanda is a member)
+https://en.wikipedia.org/wiki/East_African_Community          # East African Community (Rwanda is a member)
+
+# Global and Regional Organizations
+https://en.wikipedia.org/wiki/United_Nations                  # United Nations
+https://en.wikipedia.org/wiki/United_Nations_Development_Programme  # UNDP
+https://en.wikipedia.org/wiki/United_Nations_Children%27s_Fund  # UNICEF
+https://en.wikipedia.org/wiki/World_Bank                      # World Bank
+https://en.wikipedia.org/wiki/International_Monetary_Fund     # International Monetary Fund (IMF)
+https://en.wikipedia.org/wiki/African_Development_Bank        # African Development Bank (AfDB)
+https://en.wikipedia.org/wiki/World_Health_Organization       # World Health Organization (WHO)
+
+# Human Development and Socioeconomic Issues
+https://en.wikipedia.org/wiki/Socioeconomic_development       # Socioeconomic development
+https://en.wikipedia.org/wiki/Health_in_Africa                # Health in Africa
+https://en.wikipedia.org/wiki/Food_security                   # Food security
+https://en.wikipedia.org/wiki/International_humanitarian_law  # International humanitarian law
+https://en.wikipedia.org/wiki/Refugee                         # Refugee and asylum topics
+https://en.wikipedia.org/wiki/Corruption_Perceptions_Index    # Corruption Perceptions Index (global index by Transparency International)
+https://en.wikipedia.org/wiki/Global_Gender_Gap_Report        # Global Gender Gap Report
+https://en.wikipedia.org/wiki/Global_Hunger_Index             # Global Hunger Index
+https://en.wikipedia.org/wiki/Child_labor                     # Child labor issues globally
+https://en.wikipedia.org/wiki/Empowerment                     # Empowerment and social empowerment topics
+
+# Research and Data on Rwanda and Africa
+https://en.wikipedia.org/wiki/Statistics_of_Rwanda            # Statistical information on Rwanda
+https://en.wikipedia.org/wiki/Health_in_Rwanda                # Health indicators in Rwanda
+https://en.wikipedia.org/wiki/UNESCO                          # UNESCO (education, science, culture)
+https://en.wikipedia.org/wiki/Plan_International              # Plan International (children’s rights organization)
+https://en.wikipedia.org/wiki/Care_International              # CARE International (humanitarian organization)
+https://en.wikipedia.org/wiki/Food_and_Agriculture_Organization  # FAO
+https://en.wikipedia.org/wiki/International_Labour_Organization  # ILO and labor rights
+
+# Additional Topics in International Development
+https://en.wikipedia.org/wiki/Development_economics           # Development economics
+https://en.wikipedia.org/wiki/Economic_development            # Economic development
+https://en.wikipedia.org/wiki/Social_development_theory       # Social development theory
+https://en.wikipedia.org/wiki/Environmental_sustainability    # Environmental sustainability
+https://en.wikipedia.org/wiki/Global_health                   # Global health
+https://en.wikipedia.org/wiki/Public_policy                   # Public policy
+https://en.wikipedia.org/wiki/Rural_development               # Rural development
+https://en.wikipedia.org/wiki/Economic_growth                 # Economic growth and global development
+
